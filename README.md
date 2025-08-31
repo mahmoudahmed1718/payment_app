@@ -1,16 +1,44 @@
-# payment_app
+# 💳 Flutter Payment App
 
-A new Flutter project.
+A **Flutter-based payment application** integrating multiple payment methods, including credit/debit card support using `flutter_credit_card`, as well as mobile wallets like Google Pay and Apple Pay. The app is currently under active development, and features will be updated regularly.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+##  Status
 
-A few resources to get you started if this is your first Flutter project:
+⏳ **In Progress** – The application is still being developed.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Currently in progress:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Integration of the `flutter_credit_card` package for card payments.
+- Implementing UI for secure card input and flow.
+- Planning integration with Google Pay, Apple Pay, Stripe, and PayPal.
+
+---
+
+##  Planned Features
+
+- **Credit/Debit Card Payments** (via `flutter_credit_card`)
+- **Mobile Wallet Integration** (Google Pay, Apple Pay)
+- **International Payment Gateways** (Stripe, PayPal)
+- **Secure Transactions** with tokenization, encryption, and compliance
+- **Responsive UI** for a seamless checkout experience
+- **Real-Time Payment Status Updates**
+
+---
+
+##  Tech Stack
+
+- **Flutter SDK** (latest stable version)
+- **State Management**: BLoC / Cubit (or Provider, as preferred)
+- **Payment Integration**: `flutter_credit_card` for card UI, REST APIs for gateways
+- **Security**: Encryption, tokenization (to be implemented)
+
+---
+
+##  Installation & Setup
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/mahmoudahmed1718/payment_app.git
+   cd payment_app
