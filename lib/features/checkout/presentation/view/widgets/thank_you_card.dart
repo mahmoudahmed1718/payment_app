@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-
 import 'package:payment_app/core/utils/styles.dart';
 import 'package:payment_app/features/checkout/presentation/view/widgets/card_item_info_widget.dart';
 import 'package:payment_app/features/checkout/presentation/view/widgets/payment_item_info.dart';
