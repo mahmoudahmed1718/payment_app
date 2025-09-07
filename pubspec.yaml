@@ -37,6 +37,7 @@ dependencies:
   flutter_credit_card: ^4.1.0
   flutter_svg: ^2.2.0
   font_awesome_flutter: ^10.9.1
+  flutter_stripe: ^12.0.2
   
 
 dev_dependencies:
